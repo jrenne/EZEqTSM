@@ -5,6 +5,7 @@ Version: 0.1.0
 Author: Jean-Paul Renne
 Maintainer: Jean-Paul Renne <jean-paul.renne@unil.ch>
 Description: This package contains codes allowing to handle equilibrium term structure models.
+    Agents feature Epstein-Zin preferences. An example si Bansal and Shaliastovich (2013).
 License: General Public License v3.0
 Encoding: UTF-8
 LazyData: true

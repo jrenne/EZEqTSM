@@ -46,7 +46,7 @@ solve.model <- function(Model){
     pc.bar <- c(pc.bar - f.1/df)
   }
 
-  Model$lambda <- (theta - 1)*kappa.1*A.1 - gamma*beta.c.tilde
+  Model$lambda <- (theta - 1)*kappa.1*A.1 - Model$gamma*beta.c.tilde
 
   phi.lambda <- compute.Laplace.Transf.X(Model,matrix(Model$lambda,ncol=1))
 
